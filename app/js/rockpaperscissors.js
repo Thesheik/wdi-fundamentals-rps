@@ -22,7 +22,7 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 function getPlayerMove(move) {
-    var move = 
+    var move =
     // Write an expression that operates on a variable called `move`
     // If a `move` has a value, your expression should evaluate to that value.
     // However, if `move` is not specified / is null, your expression should equal `getInput()`.
@@ -51,7 +51,7 @@ function getWinner(playerMove,computerMove) {
     }
  if(playerMove == "paper") {
     if (computerMove === "rock") {
-        winner = "player"; 
+        winner = "player";
         }
     }
     else if (computerMove === "paper" {
